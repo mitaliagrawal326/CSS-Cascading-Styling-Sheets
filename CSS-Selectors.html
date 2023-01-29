@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Working with CSS Selectors</title>
+    <style>
+        *{
+            background-color:antiquewhite;
+        }
+        #para{
+           color:cadetblue;
+           font-size:20px;
+           font-weight:100;
+        }
+        .center{
+            font-weight:bold;
+            color:blueviolet;
+            font-size:20px;
+        }
+        p, h4, b{
+            color:deeppink;
+            font-size:19px;
+        }
+        h1{
+            color:indianred;
+            font-size:20px;
+        }
+        div{
+            font-size:25px;
+            color:green;
+            font-weight:bold;
+        }
+        ol li{
+            font-size:18px;
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <div> There are five types of CSS Selectors: </div>
+    <ol>
+        <li>Universal Selector</li>
+        <li>Id Selector</li>
+        <li>Class Selector</li>
+        <li>Grouping Selector</li>
+        <li>Element Selector</li>
+    </ol>
+    <hr/>
+    <h3> (*) Universal Selector is applied on background color. </h3>
+
+    <p id="para"> (#) The CSS rule applied to the HTML element with id="para". </p>
+
+    <p class="center"> (.)<i> HTML elements with class="center" will be bold and italic. </i></p>
+    
+    <p>Grouping Selector- We take all the elements to apply the same properties in one selector. </p>
+       <h4>This is Heading 4.</h4>
+       <b>This text is bold.</b>
+    
+    <h1> All the h1 elements in the page will be affected by the element selector. </h1>
+</body>
+</html>

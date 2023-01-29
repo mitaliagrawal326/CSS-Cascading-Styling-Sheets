@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> CSS Types </title>
+        <link rel="stylesheet" href="external.css">
+        <style>
+          .divCls{
+            background-color:red;
+          height:100px;
+          width:100px;
+          color:white;
+          font-weight:bold;
+          font-size:15px;
+          align-items:top;
+          justify-content:center;
+          display:flex;
+          padding:15px;
+          text-align: center;
+          }
+          .divCls1{
+            background-color:cornflowerblue;
+          height:100px;
+          width:100px;
+          color:black;
+          font-weight:bold;
+          font-size:15px;
+          align-items:center;
+          justify-content:center;
+          display:flex;
+          padding:15px;
+          text-align:center;
+          }
+          .divCls2{
+            background-color:cyan;
+          height:100px;
+          width:100px;
+          color:black;
+          font-weight:bold;
+          font-size:15px;
+          align-items:flex-end;
+          justify-content:center;
+          display:flex;
+          padding:15px;
+          text-align:center;
+          }
+        </style>
+    </head>
+<body>
+    <div style="background-color:red;height:100px;width:100px;color:white;font-weight:bold;
+    font-size:15px;text-align:center;justify-content:center;display:flex;padding:15px;"> Inline Stylesheet </div><hr/>
+    
+    <div style="background-color:cornflowerblue;height:100px;width:100px;color:black;font-weight:bold;
+    font-size:15px;text-align:center;align-items:center;justify-content:center;display:flex;padding:15px;"> Inline Stylesheet </div><hr/>
+
+    <div style="background-color:cyan;height:100px;width:100px;color:black;font-weight:bold;
+    font-size:15px;text-align:center;align-items:flex-end;justify-content:center;display:flex;padding:15px;"> Inline Stylesheet </div><hr/>
+
+    <div class="divCls"> Internal Stylesheet </div><hr/>
+
+    <div class="divCls1"> Internal Stylesheet </div><hr/>
+
+    <div class="divCls2"> Inernal Stylesheet </div><hr/>
+
+    <div id="divCls"> External Stylesheet </div><hr/>
+
+    <div id="divCls1"> External Stylesheet </div><hr/>
+
+    <div id="divCls2"> External Stylesheet </div><hr/>
+</body>
+</html>    
